@@ -65,7 +65,7 @@ int main()
 	cout << "+ Адреса байтов переменной surname[]: " << "\n" << endl;
 
 	fout << "Выводим элементы переменной структуры pacien1.surname[]" << endl;
-	fout << "Размер переменной surname[] в байтах: " << sizeof(argument1.surname)*5 << "\n" << endl;
+	fout << "Размер переменной surname[] в байтах: " << sizeof(argument1.surname) << "\n" << endl;
 	fout << "+ Адреса байтов переменной surname[]: " << "\n" << endl;
 	for(int i=0; i<sizeof(argument1.surname); i++)
 	{
